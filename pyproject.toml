@@ -31,7 +31,7 @@ dependencies = [
 packages = [{include = "sagemaker_testing", from = "src"}]
 
 [tool.poetry.scripts]
-sagemaker-testing = "src.sagemaker_testing.main:main"
+deploy = "src.sagemaker_testing.main:main"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

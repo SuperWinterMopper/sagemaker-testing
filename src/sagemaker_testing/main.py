@@ -18,7 +18,7 @@ def run_test():
         'HF_TASK':'text-classification'
     }
 
-    # create Hugging Face Model Class
+    # create Hugging Face Model Classhow
     huggingface_model = HuggingFaceModel(
         transformers_version='4.51.3',
         pytorch_version='2.6.0',
@@ -38,4 +38,7 @@ def run_test():
     })
 
 def main():
-    print("hello world")
+    print("Running deployment...")
+    run_test()
+    print("Exited function.")
+
