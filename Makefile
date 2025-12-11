@@ -1,2 +1,2 @@
 deploy:
-	python -m src.sagemaker_testing.main:main
+	python -m src.sagemaker_testing.main

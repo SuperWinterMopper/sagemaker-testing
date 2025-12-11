@@ -38,13 +38,9 @@ def run_test():
     })
 
 def main():
-    # print("Running deployment...")
-    # run_test()
-    # print("Exited function.")
+    print("Running deployment...")
+    run_test()
+    print("Exited function.")
 
-    # print("change")
-    # print("change")
-
-    import numpy as np  
-    print(np.array([1,2,3]))
-
+if __name__ == '__main__':
+    main()
